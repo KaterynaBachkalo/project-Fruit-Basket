@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    width: 290px;
+    transition: opacity var(--transition);
     height: auto;
     padding: 20px;
     border-radius: 20px;
@@ -16,15 +16,23 @@
     opacity: 1;
 }
 
+
+.thank {
+    min-width: 290px;
+}
+
+
 @media only screen and (min-width: 375px) {
     .thank {
-        width: 335px;
+        min-width: 335px;
+        min-height: 426px;
     }
 }
 
 @media only screen and (min-width: 734px) {
     .thank {
         width: 600px;
+        min-height: 545px;
     }
 }
 
@@ -36,6 +44,13 @@
     border: none;
     width: 24px;
     height: 24px;
+    transition: opacity var(--transition);
+    stroke: var(--second-bg);
+}
+
+.thank-btn:hover,
+.thank-btn:focus {
+    stroke: var(--form-btn);
 }
 
 @media only screen and (min-width: 734px) {

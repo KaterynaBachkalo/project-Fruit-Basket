@@ -4,19 +4,54 @@
     class="thank-btn close-btn"
     aria-label="close thanks button"
   >
-    <svg class="thank-x" width="24px" height="24px" stroke="var(--second-bg)">
+    <svg class="thank-x" width="24px" height="24px">
       <use href="./img/icons.svg#icon-x-mobile"></use>
     </svg>
-    <svg
-      class="thank-x-tab"
-      width="28px"
-      height="28px"
-      stroke="var(--second-bg)"
-    >
+    <svg class="thank-x-tab" width="28px" height="28px">
       <use href="./img/icons.svg#icon-x-tabdesk"></use>
     </svg>
   </button>
-
+  <picture>
+    <source
+      media="(min-width: 734px)"
+      srcset="
+        ./img/modal-thx/rasp_tab@1x.avif 1x,
+        ./img/modal-thx/rasp_tab@2x.avif 2x
+      "
+      type="image/avif"
+    />
+    <source
+      media="(min-width: 734px)"
+      srcset="
+        ./img/modal-thx/rasp_tab@1x.png 1x,
+        ./img/modal-thx/rasp_tab@2x.png 2x
+      "
+      type="image/png"
+    />
+    <source
+      srcset="
+        ./img/modal-thx/rasp_mob@1x.avif 1x,
+        ./img/modal-thx/rasp_mob@2x.avif 2x
+      "
+      type="image/avif"
+    />
+    <source
+      srcset="
+        ./img/modal-thx/rasp_mob@1x.png 1x,
+        ./img/modal-thx/rasp_mob@2x.png 2x
+      "
+      type="image/png"
+    />
+    <img
+      class="thank-img"
+      src="./img/modal-thx/rasp_mob@1x.png"
+      alt="raspberry"
+      width="278"
+      height="239"
+      loading="lazy"
+    />
+  </picture>
+  <!-- 
   <img
     class="thank-img"
     srcset="
@@ -31,7 +66,7 @@
     width="278"
     height="239"
     loading="lazy"
-  />
+  /> -->
   <div class="thank-words">
     <h2 class="thank-head">THANK YOU</h2>
     <p class="thank-text">
