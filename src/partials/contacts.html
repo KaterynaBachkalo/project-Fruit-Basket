@@ -1,0 +1,100 @@
+<section class="contacts">
+  <div class="contacts-container container">
+    <div class="contacts-top">
+      <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1246px)"
+              srcset="
+                ./img/contacts/melon_desk@1x.jpg 1x,
+                ./img/contacts/melon_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 734px)"
+              srcset="
+                ./img/contacts/melon_tab@1x.jpg 1x,
+                ./img/contacts/melon_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Mobile screen -->
+            <source
+              media="(max-width: 733px)"
+              srcset="
+                ./img/contacts/melon_mob@1x.jpg 1x,
+                ./img/contacts/melon_mob@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="contacts-img"
+              src="./img/contacts/melon_mob@1x.jpg"
+              alt="Melon"
+              loading="lazy"
+            />
+          </picture>
+        </li>
+        <li class="contacts-item">
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1246px)"
+              srcset="
+                ./img/contacts/berries_desk@1x.jpg 1x,
+                ./img/contacts/berries_desk@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 734px)"
+              srcset="
+                ./img/contacts/berries_tab@1x.jpg 1x,
+                ./img/contacts/berries_tab@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="contacts-img"
+              src="./img/contacts/berries_tab@1x.jpg"
+              alt="Blueberry"
+              loading="lazy"
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+    <div class="contacts-bottom">
+      <p class="contacts-text">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form>
+        <div class="contacts-wrap-input">
+          <input
+            class="contacts-input"
+            type="email"
+            name="email"
+            placeholder="Enter email..."
+            required
+          />
+          <button
+            class="contacts-btn js-open-modal"
+            type="submit"
+            data-modal="2"
+          >
+            send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

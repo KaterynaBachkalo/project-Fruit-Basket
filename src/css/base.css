@@ -1,23 +1,23 @@
 :root {
-    --prime-text-color: #FFFFFF;
-    --second-text-color: #000000;
-    --brand-color: #AE1332;
+  --prime-text-color: #FFFFFF;
+  --second-text-color: #000000;
+  --brand-color: #AE1332;
 
-    --body-bg: #AE1332;
-    --second-bg: #FFFFFF;
+  --body-bg: #AE1332;
+  --second-bg: #FFFFFF;
 
-    --card-accent-color: #A4CB66;
-    /* для секції воркс переоприділити цю змінну */
-    --card-second-accent-color: #F5CE13;
+  --card-accent-color: #A4CB66;
+  /* для секції воркс переоприділити цю змінну */
+  --card-second-accent-color: #F5CE13;
 
-    --card-fruits: #F8766B;
-    /* для кожної картки переоприділити окремо */
+  --card-fruits: #F8766B;
+  /* для кожної картки переоприділити окремо */
 
-    --active-icon: rgba(174, 19, 50, 0.1);
-    --fruits-btn: #9DC262;
-    --form-btn: #9DC162;
+  --active-icon: rgba(174, 19, 50, 0.1);
+  --fruits-btn: #9DC262;
+  --form-btn: #9DC162;
 
-    --bg-modal-thx: #E03F5E;
+  --bg-modal-thx: #E03F5E;
 }
 
 body {
@@ -26,6 +26,7 @@ body {
   color: var(--prime-text-color);
   background-color: var(--body-bg);
 }
+
 section {
   margin-bottom: 80px;
 }
@@ -39,17 +40,20 @@ section {
     margin-bottom: 150px;
   }
 }
+
 .container {
-    padding: 0 15px;
-    margin: 0 auto;
-    min-width: 320px;
-    max-width: 365px;
+  padding: 0 15px;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 365px;
 }
+
 @media only screen and (min-width: 734px) {
   .container {
     max-width: 734px;
   }
 }
+
 @media only screen and (min-width: 1246px) {
   .container {
     max-width: 1246px;
