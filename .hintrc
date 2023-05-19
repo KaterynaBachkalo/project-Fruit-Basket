@@ -9,7 +9,8 @@
         "ignore": [
           "-webkit-text-size-adjust",
           "scroll-behavior",
-          "font-synthesis"
+          "font-synthesis",
+          "backdrop-filter"
         ]
       }
     ],

@@ -66,3 +66,23 @@ section {
 svg {
   fill: currentColor;
 }
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(12px);
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+
+}

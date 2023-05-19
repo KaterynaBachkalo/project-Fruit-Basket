@@ -50,6 +50,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-
+    const input = document.querySelector('.contacts-input');
+    const btn = document.querySelector('.contacts-btn')
+    btn.addEventListener('click', clearInput);
+    function clearInput() {
+        input.value = '';
+    }
 
 }); // end ready
