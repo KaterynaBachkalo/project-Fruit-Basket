@@ -1,1 +1,50 @@
-/* no empty */
+.thank {
+    max-width: 335px;
+    background-color: var(--bg-modal-thx);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.thank-btn {}
+
+.thank-x {}
+
+.thank-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 68px auto 28px auto;
+}
+
+.thank-words {
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thank-head {
+    margin-right: auto;
+    margin-bottom: 14px;
+    margin-left: auto;
+    box-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    color: var(--prime-text-color);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.thank-text {
+
+    color: var(--prime-text-color);
+    box-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+}
