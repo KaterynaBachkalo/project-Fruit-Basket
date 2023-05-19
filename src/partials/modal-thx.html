@@ -1,9 +1,14 @@
-<div class="thank">
-  <button class="thank-btn">
-    <svg class="thank-x" width="24px" height="24px">
+<div class="thank modal" data-modal="thx">
+  <button class="thank-btn js-modal-close">
+    <svg class="thank-x" width="24px" height="24px" stroke="var(--second-bg)">
       <use href="../img/icons.svg#icon-x-mobile"></use>
     </svg>
-    <svg class="thank-x-tab" width="28px" height="28px">
+    <svg
+      class="thank-x-tab"
+      width="28px"
+      height="28px"
+      stroke="var(--second-bg)"
+    >
       <use href="../img/icons.svg#icon-x-tabdesk"></use>
     </svg>
   </button>
@@ -11,12 +16,12 @@
   <img
     class="thank-img"
     srcset="
-      ../img/modal-thx/rasp_mob@1x.png 207w,
-      ../img/modal-thx/rasp_tab@1x.png 278w,
-      ../img/modal-thx/rasp_mob@2x.png 414w,
-      ../img/modal-thx/rasp_tab@1x.png 266w
+      ./img/modal-thx/rasp_mob@1x.png 207w,
+      ./img/modal-thx/rasp_tab@1x.png 278w,
+      ./img/modal-thx/rasp_mob@2x.png 414w,
+      ./img/modal-thx/rasp_tab@2x.png 556w
     "
-    sizes="(min-width: 734px) 278px, (min-width: 375px) 207px, 100vw "
+    sizes="(min-width: 734px) 278px, (min-width: 375px) 207px,(min-width: 320px) 207px, 100vw "
     src="../img/modal-thx/rasp_mob@1x.png"
     alt="raspberry"
     loading="lazy"
