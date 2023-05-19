@@ -1,23 +1,23 @@
 :root {
-  --prime-text-color: #ffffff;
+  --prime-text-color: #FFFFFF;
   --second-text-color: #000000;
-  --brand-color: #ae1332;
+  --brand-color: #AE1332;
 
-  --body-bg: #ae1332;
-  --second-bg: #ffffff;
+  --body-bg: #AE1332;
+  --second-bg: #FFFFFF;
 
-  --card-accent-color: #a4cb66;
+  --card-accent-color: #A4CB66;
   /* для секції воркс переоприділити цю змінну */
-  --card-second-accent-color: #f5ce13;
+  --card-second-accent-color: #F5CE13;
 
-  --card-fruits: #f8766b;
+  --card-fruits: #F8766B;
   /* для кожної картки переоприділити окремо */
 
   --active-icon: rgba(174, 19, 50, 0.1);
-  --fruits-btn: #9dc262;
-  --form-btn: #9dc162;
+  --fruits-btn: #9DC262;
+  --form-btn: #9DC162;
 
-  --bg-modal-thx: #e03f5e;
+  --bg-modal-thx: #E03F5E;
 }
 
 body {
@@ -30,11 +30,13 @@ body {
 section {
   margin-bottom: 80px;
 }
+
 @media only screen and (min-width: 734px) {
   section {
     margin-bottom: 144px;
   }
 }
+
 @media only screen and (min-width: 1246px) {
   section {
     margin-bottom: 150px;
