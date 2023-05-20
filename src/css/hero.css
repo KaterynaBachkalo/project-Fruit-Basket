@@ -1,11 +1,51 @@
+/* Mobile styles */
+
+.hero {
+  padding-top: 56px;
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-image: url(../img/hero/ban-blurred@1x.png),
+    url(../img/hero/straw-blurred@1x.png);
+  background-position: top 50px left, top right;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+}
+
+.hero-title {
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+
+  width: 335px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+
+  z-index: 5;
+}
+
+/* Hero image */
+
 .img-wrap {
   position: relative;
-  width: 486px;
-  height: 742px;
-  padding: 20px 17px;
+  width: 330px;
+  height: 490px;
+  padding: 10px 14px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 71px;
+
   background-image: linear-gradient(
     to top,
     rgb(174, 19, 50) 77%,
@@ -16,8 +56,8 @@
 .img-wrap::before {
   content: '';
   position: absolute;
-  width: calc(100% + 2px);
-  height: calc(100% + 2px);
+  width: calc(100% + 3px);
+  height: calc(100% + 3px);
   background-image: linear-gradient(
     359.94deg,
     #ffffff -1.7%,
@@ -35,4 +75,165 @@
 .img-wrap::before,
 .img-wrap .inner {
   border-radius: 500px;
+}
+
+/* Hero Button */
+
+.hero-anchor {
+  position: absolute;
+  bottom: -28px;
+
+  min-width: 80px;
+  min-height: 80px;
+  padding: 20px 8px;
+
+  /* font-family: inherit; */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--brand-color);
+  background-color: #ffffff;
+
+  border: none;
+  border-radius: 50%;
+}
+
+.hero-anchor:hover,
+.hero-anchor:focus {
+  color: var(--card-accent-color);
+}
+
+.hero-anchor > span {
+  display: inline-block;
+  transform: rotate(-14deg);
+  width: 57px;
+}
+
+/* Hero element left side */
+
+.hero-element-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  align-items: center;
+  row-gap: 44px;
+}
+
+.hero-element-text {
+  width: 279px;
+}
+
+.hero-fruit.watermelon {
+  padding-top: 28px;
+  padding-bottom: 43px;
+  width: 249px;
+  height: 387px;
+  border-radius: 500px;
+  background-color: var(--card-accent-color);
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.hero-fruit-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 62px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+}
+
+.hero-fruit-element {
+  margin: 0 auto;
+  /* margin-bottom: 2px; */
+}
+
+.element-text {
+  display: block;
+  width: 155px;
+  margin: 0 auto;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Hero element right side */
+
+.hero-element-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  align-items: center;
+  row-gap: 44px;
+}
+
+.feature-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  /* width: 280px; */
+}
+
+.hero-item {
+  width: 125px;
+  height: 38px;
+  padding: 12px 32px;
+
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  background-color: transparent;
+  text-transform: uppercase;
+
+  border-radius: 25px;
+  border: 1px solid white;
+
+  /* flex-basis: calc((100% - (8px * 1)) / 2); */
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+
+.hero-fruit.strawberry {
+  padding-top: 28px;
+  padding-bottom: 40px;
+  width: 249px;
+  height: 387px;
+  border-radius: 500px;
+  background-color: var(--card-second-accent-color);
+  text-align: center;
+}
+
+.hero-fruit-title.strawberry {
+  margin-bottom: 19px;
+}
+
+.hero-straw-element {
+  margin: 0 auto;
+  /* margin-bottom: 15px; */
+}
+
+.element-text.strawberry {
+  width: 160px;
 }
