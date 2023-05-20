@@ -1,1 +1,164 @@
-/* no empty */
+/**
+  |============================
+  | FRUITS STYLES
+  |============================
+*/
+
+.fruits {
+    color: var(--prime-text-color);
+        
+}
+
+
+.fruits-title {
+      padding-bottom: 14px;
+
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 1;
+      letter-spacing: -0.04em;
+      text-shadow: var(--text-shadow);
+      text-align: center;
+}
+
+.fruits-text {
+      padding-bottom: 44px;
+
+      text-align: center;
+      text-shadow: var(--text-shadow);
+  
+   
+}
+.fruits-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+}
+
+
+.fruits-item {
+    position: relative;
+    width: 335px;
+    height: 465px;
+    padding-top: 64px;  
+    padding-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--card-fruits);
+    border-radius: 20px;
+
+}
+
+
+.fruits-item:nth-child(2) {
+  
+  --card-fruits: #EDD251;
+}
+.fruits-item:nth-child(3) {
+  
+  --card-fruits: #9DC262;
+}
+.fruits-item:nth-child(4) {
+  
+  --card-fruits: #BFD663;
+}
+.fruits-item:nth-child(5) {
+  
+  --card-fruits: #E93F29;
+}
+.fruits-item:nth-child(6) {
+  
+  --card-fruits: #DB4F4B;
+}
+.fruits-item:nth-child(7) {
+  display: none;
+  
+  --card-fruits: #9B5366;
+}
+.fruits-item:nth-child(8) {
+  display: none;
+  
+  --card-fruits: #F47F4C;
+}
+.fruits-item:nth-child(9) {
+  display: none;
+  
+  --card-fruits: #98B37E;
+}
+
+
+.fruits-card-title {
+      padding-left: 4px;
+      padding-bottom: 8px;
+
+      font-size: 24px;
+      line-height: 1.17;
+      letter-spacing: -0.04em;
+      
+}
+.fruits-card-text {
+      padding-left: 4px;
+      padding-bottom: 4px;
+
+      letter-spacing: -0.02em;
+ }
+
+.fruits-price {
+  
+      position: absolute;
+      left: 24px;
+      bottom: 24px;
+      min-width: 121px;
+      max-width: 126px;
+      padding: 12px 24px;
+
+      font-weight: 500;
+      letter-spacing: -0.04em;
+      color: var(--brand-color);
+      background-color: var(--prime-text-color);
+      border-radius: 200px;
+}
+
+.fruits-btn {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row-reverse;
+      margin: 44px auto 0;
+      width: 80px;
+      height: 80px;
+      
+      font-weight: 500;
+      letter-spacing: -0.04em;
+
+      color: var(--prime-text-color);
+      background-color: var(--fruits-btn);
+      border-color: transparent;
+
+      border-radius: 50%;
+      text-shadow: var(--text-shadow);
+
+}
+
+.fruits-btn:hover,
+.fruits-btn:focus {
+  color: var(--fruits-btn);
+  background-color: var(--second-bg);
+
+}
+
+.fruits-span {
+  padding-left: 4px;
+  transform: rotate(-14deg);
+}
+
+.fruits-btn-icon {
+ 
+  height: 24px;
+  padding-top: 10px;
+}
