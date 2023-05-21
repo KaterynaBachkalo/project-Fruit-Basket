@@ -1,35 +1,41 @@
 <footer class="footer-section">
-  <div class="container">
-    <img
-      class="footer-img"
-      srcset="./img/footer/logo-img 2x.jpg 2x"
-      src="./img/footer/logo-img .jpg"
-      alt="Happy woman holding tropical fruits"
-      width="335"
-    />
-    <nav class="footer-navigation">
-      <a href="./index.html" class="footer-logotip">
-        <svg class="icon-logo" width="16" height="16">
-          <use href="./img/icons.svg#icon-logo"></use>
-        </svg>
-        <span class="footer-logo">FRESH HARVEST BOX</span></a
-      >
-      <ul class="footer-nav-list">
-        <li>
-          <a class="footer-nav-item" href="#works">How It Works</a>
-        </li>
-        <li>
-          <a class="footer-nav-item" href="#fruits">Fruits</a>
-        </li>
-        <li>
-          <a class="footer-nav-item" href="#contacts">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div>
+  <div class="container wrapper">
+    <div class="footer-navigation">
+      <div>
+        <img
+          class="footer-img"
+          srcset="./img/footer/logo-img 2x.jpg 2x"
+          src="./img/footer/logo-img .jpg"
+          alt="Happy woman holding tropical fruits"
+          width="335"
+        />
+
+        <a href="./index.html" class="footer-logotip">
+          <svg class="icon-logo" width="16" height="16">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+          <span class="footer-logo">FRESH HARVEST BOX</span></a
+        >
+      </div>
+      <nav>
+        <ul class="footer-nav-list">
+          <li>
+            <a class="footer-nav-item" href="#works">How It Works</a>
+          </li>
+          <li>
+            <a class="footer-nav-item" href="#fruits">Fruits</a>
+          </li>
+          <li>
+            <a class="footer-nav-item" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-soc-wrapper">
       <ul class="footer-soc-icon-list">
         <li class="footer-soc-icon-item">
           <a
+            aria-label="facebook-link"
             class="footer-soc-icon-link"
             href="https://www.facebook.com/"
             target="_blank"
@@ -42,6 +48,7 @@
         </li>
         <li class="footer-soc-icon-item">
           <a
+            aria-label="instagram-link"
             class="footer-soc-icon-link"
             href="https://www.instagram.com/"
             target="_blank"
@@ -54,6 +61,7 @@
         </li>
         <li class="footer-soc-icon-item">
           <a
+            aria-label="youtube-link"
             class="footer-soc-icon-link"
             href="https://www.youtube.com/"
             target="_blank"
@@ -75,7 +83,8 @@
               href="https://goo.gl/maps/pRxTAWWVybm2v9Vc7"
               target="_blank"
               rel="noreferrer noopener"
-              >1678 S.Pioneer Road Salt Lake City UT 84104
+              >1678 S.Pioneer Road Salt Lake City
+              <span class="address-number"> UT 84104</span>
             </a>
           </li>
         </ul>
