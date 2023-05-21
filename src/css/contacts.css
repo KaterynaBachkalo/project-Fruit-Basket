@@ -17,7 +17,8 @@
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    width: 335px;
+    max-width: 335px;
+    width: 100%;
     z-index: 10;
 
     font-weight: 500;
@@ -35,14 +36,14 @@
 @media only screen and (min-width: 734px) {
     .contacts-title {
         font-size: 54px;
-        width: 648px;
+        max-width: 648px;
     }
 }
 
 @media only screen and (min-width: 1246px) {
     .contacts-title {
         font-size: 64px;
-        width: 770px;
+        max-width: 770px;
     }
 }
 
@@ -125,8 +126,14 @@
     outline: transparent;
 }
 
-.contacts-input:not(:placeholder-shown):required:invalid {
-    border-color: red;
+.contacts-input:invalid:not(:placeholder-shown) {
+    outline: 2px solid red;
+    border: 1px solid transparent;
+}
+
+.contacts-input:valid:not(:placeholder-shown) {
+    outline: 2px solid green;
+    border: 1px solid transparent;
 }
 
 .contacts-input::placeholder {
