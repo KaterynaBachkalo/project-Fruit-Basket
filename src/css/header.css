@@ -12,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 734px) {
     .header-container {
         justify-content: flex-start;
     }
@@ -21,13 +21,13 @@
 .header-nav {
   display: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 734px) {
   .header-nav {
     display: block;
     margin-right: 94px;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1246px) {
     .header-nav {
       margin-right: 322px;
     }
@@ -36,7 +36,7 @@
   display: flex;
   gap: 16px;
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1246px) {
     .header-list {
         gap: 20px;
     }
@@ -59,7 +59,7 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 734px) {
     .logo {
       margin-right: auto;
     }
@@ -74,7 +74,7 @@
 .basket-btn {
   display: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 734px) {
   .basket-btn {
     display: block;
     min-height: 28px;
@@ -111,7 +111,7 @@
   border: none;
   outline: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 734px) {
   .menu-toggle {
     display: none;
   }
