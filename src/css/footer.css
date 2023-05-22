@@ -69,16 +69,15 @@ margin-right: auto;
     padding: 8px;
     display: flex;
     justify-content: center;
-    transition: border-color var(--transition);
+    transition: background-color var(--transition);
+
 
 }
 
 .footer-soc-icon-link:is(:hover, :focus){
-    background: rgba(174, 19, 50, 0.1);
+    background-color: rgba(174, 19, 50, 0.1);
 }
-.footer-soc-icon{
-    transition: color var(--transition);
-}
+
 .footer-contacts-list{
     display: flex;
     flex-direction: column;
