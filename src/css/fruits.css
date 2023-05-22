@@ -40,7 +40,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  align-items: center;
   justify-content: center;
 
   margin-bottom: 44px;
@@ -87,9 +86,11 @@ border-radius: 20px;
 }
 }
 
- .fruits-img {
-  align-self: center;
+.fruits-img {
+  display: flex;
+  justify-content: center;
 }
+
 
 .fruits-item:nth-child(2) {
 --card-fruits: #EDD251;
@@ -179,6 +180,7 @@ border-radius: 20px;
     line-height: 1.33;
 }
 }
+
 .fruits-price {
 
   position: absolute;
@@ -224,6 +226,8 @@ border-radius: 20px;
 
   border-radius: 50%;
   text-shadow: var(--text-shadow);
+
+  transition: color var(--transition), background-color var(--transition);
 
 }
 
