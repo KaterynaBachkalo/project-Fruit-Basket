@@ -8,28 +8,45 @@
       <div class="inner">
         <picture>
           <source
+            media="(min-width:734px)"
+            srcset="
+              ./img/hero/hero-large@1x.webp 1x,
+              ./img/hero/hero-large@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
             media="(min-width: 734px)"
             srcset="
               ./img/hero/hero-large@1x.jpg 1x,
               ./img/hero/hero-large@2x.jpg 2x
             "
+            type="image/jpg"
           />
           <source
-            media="(max-width: 733px)"
+            srcset="
+              ./img/hero/hero-small@1x.webp 1x,
+              ./img/hero/hero-small@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
             srcset="
               ./img/hero/hero-small@1x.jpg 1x,
               ./img/hero/hero-small@2x.jpg 2x
             "
+            type="image/jpg"
           />
           <img
             src="./img/hero/hero-small@1x.jpg"
             alt="girl holding an orange"
             width="452"
             height="702"
+            loading="lazy"
           />
         </picture>
       </div>
-      <a class="hero-anchor" href="#organic-fruits"><span>shop now</span></a>
+      <a class="hero-anchor" href="#fruits"><span>shop now</span></a>
     </div>
 
     <div class="hero-element-left">
@@ -41,17 +58,28 @@
 
       <div class="hero-fruit watermelon">
         <h2 class="hero-fruit-title">Fruit</h2>
-        <img
-          class="hero-fruit-element"
-          srcset="
-            ./img/hero/watermelon@1x.png 1x,
-            ./img/hero/watermelon@2x.png 2x
-          "
-          src="./img/hero/watermelon@1x.png"
-          alt="watermelon fruit"
-          width="239"
-          height="172"
-        />
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./img/hero/watermelon@1x.avif 1x,
+              ./img/hero/watermelon@2x.avif 2x
+            "
+          />
+          <source
+            srcset="
+              ./img/hero/watermelon@1x.png 1x,
+              ./img/hero/watermelon@2x.png 2x
+            "
+          />
+          <img
+            class="hero-fruit-element"
+            src="./img/hero/watermelon@1x.png"
+            alt="watermelon fruit"
+            width="239"
+            height="172"
+          />
+        </picture>
         <p class="element-text">
           Refreshing and juicy, watermelon is the perfect summer treat and a
           great source of hydration
@@ -68,17 +96,28 @@
 
       <div class="hero-fruit strawberry">
         <h2 class="hero-fruit-title strawberry">Fruit</h2>
-        <img
-          class="hero-straw-element"
-          srcset="
-            ./img/hero/basket-straw@1x.png 1x,
-            ./img/hero/basket-straw@2x.png 2x
-          "
-          src="./img/hero/basket-straw@1x.png"
-          alt="basket with strawberries"
-          width="239"
-          height="187"
-        />
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./img/hero/basket-straw@1x.avif 1x,
+              ./img/hero/basket-straw@2x.avif 2x
+            "
+          />
+          <source
+            srcset="
+              ./img/hero/basket-straw@1x.png 1x,
+              ./img/hero/basket-straw@2x.png 2x
+            "
+          />
+          <img
+            class="hero-straw-element"
+            src="./img/hero/basket-straw@1x.png"
+            alt="basket with strawberries"
+            width="239"
+            height="185"
+          />
+        </picture>
         <p class="element-text strawberry">
           Sweet and juicy, strawberries are packed with vitamin C and
           antioxidants, making them a delicious and healthy snack
