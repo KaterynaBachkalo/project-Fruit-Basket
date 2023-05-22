@@ -43,7 +43,6 @@ margin-right: auto;
 
 }
 .footer-nav-item{
-    line-height: 18px;
     text-align: center;
     
 }
@@ -84,12 +83,14 @@ margin-right: auto;
     gap: 14px;
 }
 
+
 .footer-contacts,.footer-contacts-address{
     font-style: normal;
 }
 .footer-contacts-address{
-    max-width: 120px;
+max-width: 130px;
     text-align:center;
+    letter-spacing: -0.02em;
 }
 
 @media screen and (min-width: 734px) 
@@ -149,6 +150,4 @@ margin-right: auto;
 .footer-navigation{
     display: flex;
 }
-
-
 }
