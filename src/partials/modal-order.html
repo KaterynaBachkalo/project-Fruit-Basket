@@ -1,133 +1,184 @@
-<div data-modal="order">
-  <div class="container-order modal">
+<div class="container-order order-modal">
     <button
       class="close-btn js-modal-close"
       type="button"
       aria-label="close-icon"
       data-modal-close
     >
-      <svg class="close-icon" width="14" height="14">
-        <use href="/img/icons.svg#icon-x-tabdesk"></use>
+      <svg class="close-icon" width="28" height="28" stroke="var(--brand-color)">
+        <use href="./img/icons.svg#icon-x-tabdesk"></use>
       </svg>
     </button>
     <h2 class="order-title">YOUR ORDER</h2>
     <form class="order-form" name="basket-form">
       <!-- Basket cards -->
-      <div class="basket-cards">
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+    <div class="basket-cards">
+        <label class="basket-label" for="strawberry-basket">
+            <input
+            class="basket-checkbox visually-hidden"
             type="checkbox"
-            name="strawberry-basket"
+            name="basket"
             id="strawberry-basket"
-            required
-          />
-          <label class="basket-label" for="strawberry-basket"
-            >Strawberry Basket</label
-          >
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="
-              /img/modal-order/strawberry.png    1x,
-              /img/modal-order/strawberry@2x.png 2x
-            "
-            src="/img/modal-order/strawberry.png"
-            alt="Strawberry Basket"
-            width="173"
-            height="196"
-          />
-        </div>
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+            checked
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="./img/icons.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Strawberry&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img basket-img-straw">
+                <source 
+                srcset="./img/modal-order/strawberry_result.avif 1x,
+                 ./img/modal-order/strawberry@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strawberry.png 1x,
+                ./img/modal-order/strawberry@2x.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="./img/modal-order/strtab.avif 1x,
+                 ./img/modal-order/strtab@2x.avif 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strtab.png 1x,
+                 ./img/modal-order/strtab@2x.png 2x" media="(min-width: 768px)" sizes="(min-width: 768px) 133px, 100vw" type="image/png" />
+                <source 
+                srcset="./img/modal-order/strm_result.avif 1x, 
+                ./img/modal-order/strm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/strm.png 1x, 
+                ./img/modal-order/strm@2x.png 2x" media="" type="image/png" />
+                <img 
+                    src="./img/modal-order/strawberry_result.avif" 
+                    alt="Strawberry Basket"
+                    width="173"
+                    height="196"
+                     />
+            </picture>
+        </label>
+        <label class="basket-label" for="apple-basket">
+            <input
+            class="basket-checkbox  visually-hidden"
             type="checkbox"
-            name="apple-basket"
+            name="basket"
             id="apple-basket"
-            required
-          />
-          <label class="basket-label" for="apple-basket">Apple Basket</label>
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="
-              /img/modal-order/apple.png    1x,
-              /img/modal-order/apple@2x.png 2x
-            "
-            src="/img/modal-order/apple.png"
-            alt="Apple Basket"
-            width="229"
-            height="196"
-          />
-        </div>
-        <div class="basket-card">
-          <input
-            class="basket-checkbox"
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="./img/icons.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Apple&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img">
+                <source 
+                srcset="./img/modal-order/apple_result.avif 1x,
+                 ./img/modal-order/apple@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/apple.png 1x,
+                ./img/modal-order/apple@2x.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="./img/modal-order/apple_result.avif 1x,
+                 ./img/modal-order/apple@2x_result.avif 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/apple.png 1x,
+                 ./img/modal-order/apple@2x.png 2x" media="(min-width: 768px)" type="image/png" />
+                <source 
+                srcset="./img/modal-order/applm_result.avif 1x, 
+                ./img/modal-order/appm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/appl.png 1x,
+                ./img/modal-order/appm@2x.png 2x" media="" type="image/png" />
+                
+                <img 
+                    src="./img/modal-order/apple_result.avif" 
+                    alt="Apple Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>
+        <label class="basket-label" for="fruits-basket">
+            <input
+            class="basket-checkbox visually-hidden"
             type="checkbox"
-            name="fruits-basket"
+            name="basket"
             id="fruits-basket"
-            required
-          />
-          <label class="basket-label" for="fruits-basket">Fruits Basket</label>
-          <p class="basket-plant">Plant</p>
-          <img
-            srcset="
-              /img/modal-order/fruits.png    1x,
-              /img/modal-order/fruits@2x.png 2x
-            "
-            src="/img/modal-order/fruits.png"
-            alt="Fruits Basket"
-            width="229"
-            height="196"
-          />
-        </div>
-      </div>
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="./img/icons.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <div class="basket-text">
+                <span class="label-h">Fruits&nbsp;Basket</span>
+                <p class="basket-plant">Plant</p>
+            </div>
+            <picture class="basket-img">
+                <source 
+                srcset="./img/modal-order/fruits_result.avif 1x,
+                 ./img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fruits.png 1x,
+                ./img/modal-order/fruits@2x.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="./img/modal-order/fruits_result.avif 1x,
+                 ./img/modal-order/fruits@2x_result.avif 2x" media="(min-width: 768px)"  type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fruits.png 1x,
+                ./img/modal-order/fruits@2x.png 2x" media="(min-width: 768px)"  type="image/png" />
+                <source 
+                srcset="./img/modal-order/frm_result.avif 1x, 
+                ./img/modal-order/frtm@2x.avif 2x" media="" type="image/avif" />
+                <source 
+                srcset="./img/modal-order/fr.png 1x,
+                ./img/modal-order/frtm@2x.png 2x" media="" type="image/png" />
+                <img 
+                    src="./img/modal-order/fruits_result.avif" 
+                    alt="Fruits Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>   
+    </div>
       <!-- Customer data input -->
-      <div>
-        <input
-          class="modal-form-input"
-          type="text"
-          name="full_name_client"
-          minlength="2"
-          placeholder="Enter full name..."
-          required
-        />
-      </div>
-      <div>
-        <input
-          class="modal-form-input"
-          type="email"
-          name="client_mail"
-          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-          placeholder="Enter email..."
-          required
-        />
-      </div>
-      <div>
-        <input
-          class="modal-form-input"
-          type="text"
-          name="banking_card"
-          pattern="[0-9]{16}"
-          title="Enter 16 numbers"
-          placeholder="Enter card.."
-          required
-        />
-      </div>
-      <textarea
-        class="modal-form-textarea"
-        name="client_message"
-        rows="5"
-        placeholder="Enter comments..."
-      ></textarea>
+        <div class="modal-input-client">
+            <input
+              class="modal-form-input"
+              type="text"
+              name="full_name_client"
+              minlength="2"
+              placeholder="Enter full name..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="email"
+              name="client_mail"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              placeholder="Enter email..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="text"
+              name="banking_card"
+              pattern="[0-9]{16}"
+              title="Enter 16 numbers"
+              placeholder="Enter card.."
+              required
+            />
+            <textarea
+                class="modal-form-textarea"
+                name="client_message"
+                rows=""
+                placeholder="Enter comments..."
+            ></textarea>
+        </div>
       <button class="submit-btn" type="submit">Submit</button>
     </form>
-    <picture class="girl">
-      <img
-        srcset="/img/modal-order/girl.png 1x, /img/modal-order/girl@2x.png 2x"
-        src="/img/modal-order/girl.png"
-        alt="Girl with bananas"
-        width="469"
-        height="467"
-      />
-    </picture>
-  </div>
 </div>

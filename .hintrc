@@ -10,7 +10,8 @@
           "-webkit-text-size-adjust",
           "scroll-behavior",
           "font-synthesis",
-          "backdrop-filter"
+          "backdrop-filter",
+          "user-select"
         ]
       }
     ],
