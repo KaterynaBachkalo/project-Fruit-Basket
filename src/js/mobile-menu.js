@@ -1,6 +1,7 @@
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
+  const closeMenu = document.querySelectorAll('.js-close-menu');
 
 
   const toggleMenu = () => {
@@ -15,6 +16,12 @@
       : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
+
+  closeMenu.forEach(function (item) {
+
+    item.addEventListener('click', toggleMenu);
+
+  }); // end foreach
 
   openMenuBtn.addEventListener('click', toggleMenu);
 
