@@ -1,8 +1,8 @@
 /* Header */
 .header {
   width: 100%;
-  position: fixed;
-  z-index: 1000;
+  position: relative;
+  z-index: 30;
 
   background-color: var(--second-bg);
 }
@@ -11,13 +11,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1246px;
 }
 @media only screen and (min-width: 734px) {
     .header-container {
         justify-content: flex-start;
     }
   }
-
+@media only screen and (max-width: 1245px) {
+    .header-container {
+      max-width: 100%;
+    }
+  }
 .header-nav {
   display: none;
 }
@@ -42,7 +47,10 @@
     }
   }
 .header-link {
+  padding: 16px 0;
   color: var(--brand-color);
+
+  transition: color var(--transition);
 }
 .header-link:hover {
   color: var(--card-accent-color);
@@ -58,6 +66,8 @@
   color: var(--brand-color);
   font-weight: 700;
   text-transform: uppercase;
+
+  transition: color var(--transition);
 }
 @media only screen and (min-width: 734px) {
     .logo {
@@ -87,6 +97,8 @@
     padding: 0;
     border: none;
     outline: none;
+
+    transition: color var(--transition);
   }
 }
 .basket-btn:hover {
@@ -102,14 +114,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--brand-color);
-
-  background-color: transparent;
-
   margin: 0;
   padding: 0;
+
+  color: var(--brand-color);
+  background-color: transparent;
   border: none;
   outline: none;
+
+  transition: color var(--transition);
+}
+.menu-toggle:hover {
+  color: var(--card-accent-color);
 }
 @media only screen and (min-width: 734px) {
   .menu-toggle {
@@ -140,9 +156,10 @@
   height: 100%;
   padding: 50px 20px 0;
   background-color: var(--brand-color);
-  z-index: 999;
+  z-index: 10;
 
   transform: translateX(100%);
+  transition: transform var(--transition);
 }
 
 .menu-container.is-open {
@@ -160,8 +177,12 @@
 
 .menu-link {
   color: var(--second-bg);
-}
 
+  transition: color var(--transition);
+}
+.menu-link:hover {
+  color: var(--card-accent-color);
+}
 .menu-basket-btn {
   min-height: 28px;
   min-width: 28px;
@@ -173,4 +194,9 @@
   padding: 0;
   border: none;
   outline: none;
+
+  transition: color var(--transition);
+}
+.menu-basket-btn:hover {
+  color: var(--card-accent-color);
 }
