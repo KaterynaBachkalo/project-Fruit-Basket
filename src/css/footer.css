@@ -22,6 +22,8 @@ margin-right: auto;
     justify-content: center;
     gap: 8px;
     margin-bottom: 24px;
+    transition: color var(--transition);
+    
 }
 
 
@@ -30,6 +32,7 @@ margin-right: auto;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 .footer-navigation{
@@ -44,6 +47,7 @@ margin-right: auto;
 }
 .footer-nav-item{
     text-align: center;
+    transition: color var(--transition);
     
 }
 
