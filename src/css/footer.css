@@ -26,6 +26,9 @@ margin-right: auto;
     
 }
 
+.footer-logotip:is(:hover, :focus) {
+    color: var(--card-accent-color);
+}
 
 
 .footer-logo{
@@ -49,6 +52,9 @@ margin-right: auto;
     text-align: center;
     transition: color var(--transition);
     
+}
+.footer-nav-item:is(:hover, :focus) {
+    color: var(--card-accent-color) ;
 }
 
 
@@ -96,7 +102,14 @@ margin-right: auto;
 .footer-contacts-address{
 max-width: 130px;
     text-align:center;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em;}
+
+    .address-hover{
+    transition: color var(--transition);
+}
+
+.address-hover:is(:hover, :focus) {
+    color: var(--card-accent-color);
 }
 
 @media screen and (min-width: 734px) 
