@@ -12,5 +12,6 @@
     function toggleModal() {
         refs.overlay.classList.toggle("active");
         refs.modal.classList.toggle("active");
+        document.body.classList.toggle('no-scroll');
     }
 })();

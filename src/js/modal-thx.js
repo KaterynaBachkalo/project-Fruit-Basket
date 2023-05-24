@@ -23,6 +23,7 @@ function changeInput() {
 const closeFormModal = () => {
         successOverlay.classList.remove(ACTIVE_CLASS_NAME);
         successModal.classList.remove(ACTIVE_CLASS_NAME);
+        document.body.classList.remove('no-scroll');
 };
 
 closeBtns.forEach((btn) => {
@@ -44,6 +45,7 @@ form.addEventListener("submit", (e) => {
         e.preventDefault();
         successOverlay.classList.add(ACTIVE_CLASS_NAME);
         successModal.classList.add(ACTIVE_CLASS_NAME);
+        document.body.classList.add('no-scroll');
 
         clearFormFields();
 });
