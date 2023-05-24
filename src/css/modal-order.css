@@ -35,7 +35,6 @@
 @media only screen and (min-width: 768px) {
     .container-order {
         width: 704px;
-        height: 853px;
         padding: 0;
         background-image: 
         url(../img/modal-order/girl.png);
@@ -47,7 +46,6 @@
 @media only screen and (min-width: 1280px) {
     .container-order {
         width: 891px;
-        height: 911px;
         background-image: 
         url(../img/modal-order/girl.png);
         background-size: 471px 458px;
