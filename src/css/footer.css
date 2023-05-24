@@ -95,7 +95,7 @@ max-width: 130px;
     letter-spacing: -0.02em;
 }
 
-@media screen and (min-width: 734px) 
+@media screen and (min-width: 768px) 
 {
     .wrapper{
         display: flex;
@@ -141,7 +141,7 @@ max-width: 130px;
     line-height: 1.3;
 }}
 
-@media screen and (min-width: 1246px){
+@media screen and (min-width: 1280px){
 .footer-nav-list{
     margin-top: 84px;
     margin-left: 243px;

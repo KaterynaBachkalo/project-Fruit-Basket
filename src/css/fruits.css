@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-title {
   font-size: 40px;
   line-height: 1.1;
@@ -29,7 +29,7 @@
 
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-text {
   max-width: 547px;
   margin: 0 auto;
@@ -45,14 +45,14 @@
   margin-bottom: 44px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-list {
   
   gap: 16px;
 }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .fruits-list {
     gap: 24px;
   }
@@ -73,14 +73,14 @@ border-radius: 20px;
 
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-item {
     width: 344px;
    
 }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
 .fruits-item {
     width: 389px;
 }
@@ -117,7 +117,7 @@ border-radius: 20px;
   --card-fruits: #9B5366;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-item:nth-child(7) {
   display: flex;
     
@@ -128,7 +128,7 @@ border-radius: 20px;
   --card-fruits: #F47F4C;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-item:nth-child(8) {
   display: flex;
   
@@ -139,7 +139,7 @@ border-radius: 20px;
 
     --card-fruits: #98B37E;
 }
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
 .fruits-item:nth-child(9) {
     display: flex;
    
@@ -157,7 +157,7 @@ border-radius: 20px;
 
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-card-title {
     padding-bottom: 7px;
 
@@ -174,7 +174,7 @@ border-radius: 20px;
   letter-spacing: -0.02em;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-card-text {
     font-size: 18px;
     line-height: 1.33;
@@ -198,7 +198,7 @@ border-radius: 20px;
   border-radius: 200px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-price {
     min-width: 136px;
     padding-left: 0;
@@ -231,7 +231,7 @@ border-radius: 20px;
 
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-btn {
     width: 114px;
     height: 114px;
@@ -259,7 +259,7 @@ background-color: var(--second-bg);
   height: 28px;
   padding-top: 14px;
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
 .fruits-btn-icon {
     height: 37px;
     padding-top: 13px;

@@ -6,7 +6,7 @@
     position: relative;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-top {
         margin-bottom: 80px;
     }
@@ -33,14 +33,14 @@
     text-shadow: var(--text-shadow);
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-title {
         font-size: 54px;
         max-width: 648px;
     }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
     .contacts-title {
         font-size: 64px;
         max-width: 770px;
@@ -51,7 +51,7 @@
     padding-top: 53px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-list {
         display: flex;
         gap: 16px;
@@ -59,7 +59,7 @@
     }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
     .contacts-list {
         gap: 24px;
         padding-top: 89px;
@@ -70,7 +70,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-item:last-child {
         display: block;
     }
@@ -86,7 +86,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-bottom {
         display: flex;
         flex-direction: column;
@@ -94,7 +94,7 @@
     }
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .contacts-text {
         width: 492px;
         margin-bottom: 80px;

@@ -12,12 +12,12 @@
   justify-content: space-between;
   align-items: center;
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .header-container {
         justify-content: flex-start;
     }
   }
-@media only screen and (max-width: 1245px) {
+@media only screen and (max-width: 1279px) {
     .header-container {
       max-width: 100%;
     }
@@ -25,13 +25,13 @@
 .header-nav {
   display: none;
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .header-nav {
     display: block;
     margin-right: 94px;
   }
 }
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
     .header-nav {
       margin-right: 322px;
     }
@@ -40,7 +40,7 @@
   display: flex;
   gap: 16px;
 }
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
     .header-list {
         gap: 20px;
     }
@@ -68,7 +68,7 @@
 
   transition: color var(--transition);
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
     .logo {
       margin-right: auto;
     }
@@ -83,7 +83,7 @@
 .basket-btn {
   display: none;
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .basket-btn {
     display: block;
     min-height: 28px;
@@ -126,7 +126,7 @@
 .menu-toggle:hover {
   color: var(--card-accent-color);
 }
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .menu-toggle {
     display: none;
   }

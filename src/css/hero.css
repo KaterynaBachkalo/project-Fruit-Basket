@@ -16,19 +16,19 @@
 
 /* Tablet & Desktop styles */
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 375px) {
   .hero-container {
     background-position: top 97px left, top 43px right;
   }
 }
 
-@media only screen and (min-width: 366px) and (max-width: 733px) {
+@media only screen and (min-width: 366px) and (max-width: 767px) {
   .hero-container {
     background-position: top 103px left 2px, top 43px right 5px;
   }
 }
 
-@media only screen and (min-width: 734px) and (max-width: 1245px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-container {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .hero-container {
     background-image: url(../img/hero/ban-blurred-desk.png),
       url(../img/hero/straw-blurred-desk.png);
@@ -77,7 +77,7 @@
   z-index: 5;
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 374px) {
   .hero-title {
     max-width: 90%;
     font-size: 24px;
@@ -85,7 +85,7 @@
   }
 }
 
-@media only screen and (min-width: 366px) and (max-width: 733px) {
+@media only screen and (min-width: 366px) and (max-width: 767px) {
   .hero-title {
     width: 322px;
 
@@ -93,7 +93,7 @@
   }
 }
 
-@media only screen and (min-width: 734px) and (max-width: 1245px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-title {
     width: 704px;
     font-size: 50px;
@@ -103,7 +103,7 @@
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .hero-title {
     width: 898px;
     font-size: 64px;
@@ -156,7 +156,7 @@
   border-radius: 500px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .img-wrap {
     margin: 0 auto;
     width: 452px;
@@ -164,7 +164,7 @@
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .img-wrap {
     margin: 0;
   }
@@ -207,7 +207,7 @@
   text-shadow: var(--text-shadow);
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .hero-anchor {
     bottom: -16px;
 
@@ -235,7 +235,7 @@
   row-gap: 44px;
 }
 
-@media only screen and (max-width: 733px) {
+@media only screen and (max-width: 767px) {
   .hero-element-left {
     margin: 0 auto;
 
@@ -244,13 +244,13 @@
   }
 }
 
-@media only screen and (min-width: 734px) and (max-width: 1245px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-element-left {
     margin-left: 0;
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .hero-element-left {
     order: -1;
     margin-top: 286px;
@@ -268,7 +268,7 @@
   letter-spacing: -0.04em;
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .hero-element-text {
     width: 221px;
   }
@@ -326,7 +326,7 @@
   row-gap: 44px;
 }
 
-@media only screen and (max-width: 733px) {
+@media only screen and (max-width: 767px) {
   .hero-element-right {
     margin: 0 auto;
 
@@ -334,14 +334,14 @@
   }
 }
 
-@media only screen and (min-width: 734px) and (max-width: 1245px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-element-right {
     flex-direction: column-reverse;
     margin-right: 0;
   }
 }
 
-@media only screen and (min-width: 1246px) {
+@media only screen and (min-width: 1280px) {
   .hero-element-right {
     flex-direction: column-reverse;
     margin-top: 214px;
@@ -357,7 +357,7 @@
   gap: 8px;
 }
 
-@media only screen and (min-width: 734px) {
+@media only screen and (min-width: 768px) {
   .feature-hero {
     width: 280px;
     justify-content: flex-end;
@@ -377,7 +377,7 @@
 
   text-shadow: var(--text-shadow);
 }
-@media only screen and (max-width: 733px) {
+@media only screen and (max-width: 767px) {
   .hero-item {
     width: 125px;
     height: 38px;
