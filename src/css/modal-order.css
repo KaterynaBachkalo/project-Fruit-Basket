@@ -181,6 +181,7 @@ label {
     background-color: var(--fruits-btn);
 }
 .basket-text {
+    display: block;
     max-width: 186px;
 }
 .label-h {
