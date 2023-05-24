@@ -165,8 +165,13 @@
     transition: color var(--transition), background var(--transition);
 }
 
-.contacts-btn:hover,
-.contacts-btn:focus {
+.contacts-btn:disabled {
+    filter: grayscale(100%);
+    cursor: default;
+}
+
+.contacts-btn:not(:disabled):hover,
+.contacts-btn:not(:disabled):focus {
     background: var(--second-bg);
     color: var(--fruits-btn);
 }
