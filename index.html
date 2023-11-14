@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-Fruit-Basket/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Harvest Box</title>
+    
+    <script type="module" crossorigin src="/project-Fruit-Basket/assets/index-06861ecd.js"></script>
+    <link rel="stylesheet" href="/project-Fruit-Basket/assets/index-b416086a.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="#works" class="header-link">How It Works</a>
+        </li>
+        <li class="header-item">
+          <a href="#fruits" class="header-link">Fruits</a>
+        </li>
+        <li class="header-item">
+          <a href="#contacts" class="header-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="logo" href="./index.html">
+      <svg width="16" height="16">
+        <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-logo"></use>
+      </svg>
+      fresh harvest box
+    </a>
+    <button class="basket-btn" aria-label="Basket button">
+      <svg class="icon-basket" width="28" height="28">
+        <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-basket"></use>
+      </svg>
+    </button>
+
+    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu"
+      aria-label="Open and close the navigation menu">
+      <svg width="24" height="24">
+        <use class="icon-menu" href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-mob-menu"></use>
+        <use class="icon-close" href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-mobile"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <nav class="menu-nav">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a href="#works" class="menu-link js-close-menu">How It Works</a>
+      </li>
+      <li class="menu-item">
+        <a href="#fruits" class="menu-link js-close-menu">Fruits</a>
+      </li>
+      <li class="menu-item">
+        <a href="#contacts" class="menu-link js-close-menu">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <button class="menu-basket-btn" aria-label="Basket button">
+    <svg width="28" height="28">
+      <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-basket"></use>
+    </svg>
+  </button>
+</div>
+
+    <main>
+      <section class="hero">
+  <div class="hero-container container">
+    <h1 class="hero-title">
+      fresh harvest box<br />is your one-stop place for a delicious fruit basket
+    </h1>
+
+    <div class="img-wrap">
+      <div class="inner">
+        <picture>
+          <source
+            media="(min-width:768px)"
+            srcset="/project-Fruit-Basket/assets/hero-large@1x-88b6da18.webp 1x, /project-Fruit-Basket/assets/hero-large@2x-440944da.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/project-Fruit-Basket/assets/hero-large@1x-6fcc03b2.jpg 1x, /project-Fruit-Basket/assets/hero-large@2x-f689fd65.jpg 2x"
+            type="image/jpg"
+          />
+          <source
+            srcset="/project-Fruit-Basket/assets/hero-small@1x-6f5026e0.webp 1x, /project-Fruit-Basket/assets/hero-small@2x-c024636f.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-Fruit-Basket/assets/hero-small@1x-e179f13d.jpg 1x, /project-Fruit-Basket/assets/hero-small@2x-a46d46f5.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            src="/project-Fruit-Basket/assets/hero-small@1x-e179f13d.jpg"
+            alt="girl holding an orange"
+            width="452"
+            height="702"
+          />
+        </picture>
+      </div>
+      <a class="hero-anchor" href="#fruits"><span>shop now</span></a>
+    </div>
+
+    <div class="hero-element-left">
+      <p class="hero-element-text">
+        Our expertly curated fruit baskets are made with the freshest, highest
+        quality fruits available. Whether you are looking for a healthy snack or
+        a gift for a loved one, Fresh Harvest Box has got you covered.
+      </p>
+
+      <div class="hero-fruit watermelon">
+        <h2 class="hero-fruit-title">Fruit</h2>
+        <picture>
+          <source
+            type="image/avif"
+            srcset="/project-Fruit-Basket/assets/watermelon@1x-81c931c5.avif 1x, /project-Fruit-Basket/assets/watermelon@2x-3fd3f981.avif 2x"
+          />
+          <source
+            srcset="/project-Fruit-Basket/assets/watermelon@1x-2d055444.png 1x, /project-Fruit-Basket/assets/watermelon@2x-729a6ad5.png 2x"
+          />
+          <img
+            class="hero-fruit-element"
+            src="/project-Fruit-Basket/assets/watermelon@1x-2d055444.png"
+            alt="watermelon fruit"
+            width="239"
+            height="172"
+          />
+        </picture>
+        <p class="element-text">
+          Refreshing and juicy, watermelon is the perfect summer treat and a
+          great source of hydration
+        </p>
+      </div>
+    </div>
+    <div class="hero-element-right">
+      <ul class="feature-hero list">
+        <li class="hero-item"><h3 class="item-title">&#35;organic</h3></li>
+        <li class="hero-item"><h3 class="item-title">&#35;products</h3></li>
+        <li class="hero-item"><h3 class="item-title">&#35;basket</h3></li>
+        <li class="hero-item"><h3 class="item-title">&#35;fruits</h3></li>
+      </ul>
+
+      <div class="hero-fruit strawberry">
+        <h2 class="hero-fruit-title strawberry">Fruit</h2>
+        <picture>
+          <source
+            type="image/avif"
+            srcset="/project-Fruit-Basket/assets/basket-straw@1x-0223d9bc.avif 1x, /project-Fruit-Basket/assets/basket-straw@2x-ad929f44.avif 2x"
+          />
+          <source
+            srcset="/project-Fruit-Basket/assets/basket-straw@1x-df2fc31f.png 1x, /project-Fruit-Basket/assets/basket-straw@2x-d4413ec5.png 2x"
+          />
+          <img
+            class="hero-straw-element"
+            src="/project-Fruit-Basket/assets/basket-straw@1x-df2fc31f.png"
+            alt="basket with strawberries"
+            width="239"
+            height="185"
+          />
+        </picture>
+        <p class="element-text strawberry">
+          Sweet and juicy, strawberries are packed with vitamin C and
+          antioxidants, making them a delicious and healthy snack
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="hiw" id="works">
+  <div class="container">
+    <h2 class="hiw-main">
+      To order your fruit basket, simply follow these easy steps
+    </h2>
+    <p class="hiw-text">
+      Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
+    </p>
+    <ul class="hiw-list">
+      <li class="hiw-card">
+        <h3 class="step">FIrst Step</h3>
+        <p class="step-item">
+          Just choose the fruit you want to order by clicking on the checkboxes
+          next to it.
+        </p>
+      </li>
+      <li class="hiw-card">
+        <h3 class="step">Second Step</h3>
+        <p class="step-item">Click on the basket and fill out the form.</p>
+      </li>
+      <li class="hiw-card">
+        <h3 class="step">Third Step</h3>
+        <p class="step-item">
+          Sit back and relax! Your fresh fruit basket will be delivered.
+        </p>
+      </li>
+    </ul>
+    <div class="thumb">
+      <img
+        class="hiw-img"
+        src="/project-Fruit-Basket/assets/hiw-c01acdc2.gif"
+        alt="Fruit preview"
+        width="860"
+        height="476"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+      <section class="fruits section" id="fruits">
+    <div class="container">
+       <h2 class="fruits-title title">ORGANIC FRUITS</h2>
+       <p class="fruits-text">Our organic fruits are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get the freshest and most nutritious produce possible. We offer a wide selection of organic fruits grown without the use of harmful pesticides or chemicals.</p>
+       <ul class="fruits-list list">
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Strawberry</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-1@1x-3799ac9c.avif 1x, /project-Fruit-Basket/assets/img-1@2x-e7d34f8b.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-1@1x-77b2a662.png 1x, /project-Fruit-Basket/assets/img-1@2x-e5ebc51e.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-1@1x-77b2a662.png" alt="Strawberry" width="295" height="303">
+                    </picture> 
+                    <p class="fruits-price">100 UAH &#47; kg</p>
+            </li>
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Banana</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture class="fruits-img">
+                        <source srcset="data:image/avif;base64,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 1x, /project-Fruit-Basket/assets/img-2@2x-181e540e.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-2@1x-8ac09e94.png 1x, /project-Fruit-Basket/assets/img-2@2x-07e88df2.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-2@1x-8ac09e94.png" alt="Banana" width="295" height="299"> 
+                    </picture>
+                    <p class="fruits-price">80 UAH &#47; kg</p>
+           </li>
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Watermelon</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-3@1x-ac0c4e1b.avif 1x, /project-Fruit-Basket/assets/img-3@2x-909ce4d8.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-3@1x-64a12189.png 1x, /project-Fruit-Basket/assets/img-3@2x-2f89fd9c.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-3@1x-64a12189.png" alt="Watermelon" width="295" height="304"> 
+                    </picture>
+                    <p class="fruits-price">40 UAH &#47; kg</p>
+            </li>
+           <li class="fruits-item">
+                   <h3 class="fruits-card-title">Lime</h3>
+                   <p class="fruits-card-text">Plant</p>
+                   <picture  class="fruits-img">
+                        <source srcset="data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAAGNbWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAEAAAABAAAE+gAACPMAAgAAAAEAAAG1AAADRQAAAEJpaW5mAAAAAAACAAAAGmluZmUCAAAAAAEAAGF2MDFDb2xvcgAAAAAaaW5mZQIAAAAAAgAAYXYwMUFscGhhAAAAABppcmVmAAAAAAAAAA5hdXhsAAIAAQABAAAAw2lwcnAAAACdaXBjbwAAABRpc3BlAAAAAAAAAScAAAEwAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQAMAAAAABNjb2xybmNseAACAAIABoAAAAAOcGl4aQAAAAABCAAAAAxhdjFDgQAcAAAAADhhdXhDAAAAAHVybjptcGVnOm1wZWdCOmNpY3A6c3lzdGVtczphdXhpbGlhcnk6YWxwaGEAAAAAHmlwbWEAAAAAAAAAAgABBAECgwQAAgQBBYYHAAAMQG1kYXQSAAoGGCIk0vYVMrgGEhALLFC0/+3g5/5fuZIJpfowbqqiC1fDiXffWCkdjA2SJWQ2/bkrhuK8lVGpVOZW8SQt15DJPLNP/MZo2vAYacu0hWiFQvxKVXWAz0ZKlEQ4ixB5gsyd1GT5nqUyncPpBHR4GBXD7H+P+OXVFzY5hp2IX25SOJzM5firXd7VVh0N1WIaWz0EQKA3z0BSWQnlE0h3IGKsUk44gyzI+8vopo4FPbZDSUqNi1SiqDxM8cTBfHblKpvcP9OM/lTlJ1jPgabKbXpktkxvo+++mJpw0hxanotrCBixfdAJ837lAyU2G0QcNKH5ii4rPubW8vgpSvmbsVcXAOdcIkV4eue0yy+KM3Di7z98vBnevOy3CZhauh6NJWEcCbME9CR73RA+1Y9xmCoyboEEuw0TJQ3+m/HkKhhCVuGxhJj8QhYBQuZsK0fzX/foK/1aGFocU9iRxclci67y++rNpdTtHhE/oDW7YE0ut8vUjqmVebpFRNMhx7bIjtP4T1+cLewLvS7+bhen2wn02DfOO3MxxQzfS73oGvSxqqCr3ZSWzQ3WmzgN4Tq4LfobecznFd0TJRZrZbads5477fQqu5EnK1HykLWbfKOCv3v/1f9bigptRmUw9F6W2MTHQ5GEr7w4KwW/dxvMVHLJCgB6IgjW8WaFtnBYxO5tRmdYrYf5x7ii8OIdcOvVQ5vcdmhvE9q4NnMJwxX4TSE1+H6O0ANaZ/WGtCCjCb/ENiLFEywP1m2xuAaraKSvi9Mv4967NHrsDgG95sXl6aoZqM9x94ediAZx3j7VxPBHXgDjRYU39jSbon1EMiLJPHTCzih7kmzB3EJPGl1HCj/QPBgIZ3tT4E8aZzCTyUSoLib+n6TCqL02SDwG6d81/5L8bU1HKWrOUEojbKqgxckCdI6ZKCXxlqKeFsV3XUBrrfQhwH4oFdZB3K9KGfC/BZD4Ti4MrnWAGomja/Sf+Krz5QO6MEAxp9TcrbzFoV9+I4DjQ73KPHf8YrednOl2aS/C2i14H5ev9eA1Rp9Y13gXzH7eGJgfeTtnmh/EFEaKgQ5Wigt6sH/qBBazm7/b7IU7JZOk3g+um1Deit3Hc3fcz1ASAAoKGCIk0vYIEBA0IDLiERIQAssssUC0gbEie4zDiCoIRv+k45hXNYsvMIxQmS9lMgyH+hWw3H5qQlJfAAH8uqdmCkNIIaAxtDhYrJwBHYljUVOe1uDt8ZrdkL64jEhRWbsbjFd2eZU+sBV5QMliJzz4iyL1+qrqgY2SQUoAgNqSIw06i5u0dX1lzgp8fs4wej4yoltjVjhVqqwq5rr5GrTBNgsmAEEmKKdY9aYAd0mZL5Do3m9tLYaxcYPcbhhxC+lequFRSVxaIrTldzTwS2SSizNUGJ5zFG+6DSgeJ0LoLj4ws0RDcp6NDwq9qKtHR2Ut4dN2625e2W7Bv78KY59a/Z6H3s+9ZrXwJKw7J2gWWNLT3BFSy4TgK0USEWW5hyKYi5i469hO5KpfYiJDM815g2+xmTd60GlyZRMt6JrWL4SyAGDdIAUhI7Q9ctUvKzIEsHgvzxNzPxaolXetkHF3+y57vfYYbnHKl8dMdmLye+Czf0OW7/gWPXbipWP8jbF/+iOEBqpNvuSyaPbk4AnqV/ZHuboz9Tv3n5ESw2oA9k1APTNrxaMJn4ks70tnV017wq/pfJ+oPRtwBkkYk9ppJrjXPZY6UB6XXUpDMgz+/HPTkWvIWxiQ6yZDbyIwHZsukzTQSfsDN8MMNoXnyJwgyvbbK7FnKAiCFKX2txX1Co/Tte6gSFKZxhu/zmWJSGcJ6TKA3Oz3F0MzXbZa7AGeqG7r6uhd/fUC2RXWqHYk4xh059cQig/iWWJF4+XJTVLBqADjycmnzlFpYJDM0N5VKHrm10fPMVwZ6S9OeyIfKkIhqKNRLSv+y99MlbKo4ILXPrUx7RKCRjrhzyY3Y8OWnkeufKvu+PkWgsdYU3N6GHfhi3FMYSlItwkyJPbUXohsypQNaT7k+VQlb4Qh2mq1zCvw5pZSfMGAo+7+cigoOqAM0OhjquGWDmY84loCAwk8qqUxgNrYC67D1eK7VjTKFOHBQED2tOj/32AIA3uvVVx5gKzF/WxR5Q+vXb5ncTs4d6EadPdUmQE3xLgzhfwyeKEZdzpPmKkBhVs4QKnXZYSTg1sU0FSU2ksJwpsYZWw3++r5aYCIsiIld780S6NAm3TEeV8H5rA6U6kUhyIDZKy65mw8Xd/UkB8izhmHiZxYzxkpBe0zOp2Tj2IKpCQKKlEpPZ4aDk++cQpIrbE7k8YzsaD+sj898VnSJkFD/2IXAcgl5nhr8DVeD4T3K0fyfeJf3cnl4sFYY8P9RjFOf5vP1GYzL4n849aF5aDo03VVBjXCgLpUKWd+oyUP/+C9rcc46naidedDycY/sEy5xqIuNgR/veNA4oI9soOieigiAGah1ujW9a/6z4DbbnJfIW3dsR60uloFx4AkwaPjv6s6p5uc34+w8oueV42PqMXMzAPZxzH+UmUWZav836+RPuL2PZG/9+5F2XpqdA2ShlZ5Qv4YgDWSygBbZXhvpUF6Dfd4v5toJjcFNAd2VS3Bs/4KfxdVOUcmQ7GWzXZwWMSYnNjHlifpbawcrgs4LiNgc5N6pIbkX0sTg8yOb6RmyKubw2kfcjaP+9cca3X//ZnmAKNFgPkUUURcfftQ2SoB1HkJZUX/lXzAZo1B/8r/aFV3hOE039Zwf4CmD/gx2CuzQVjvRSTRa9HJWl0GD4bsfZJjLj7nI5IpJ7YexZLgS5+V598mG+L3OS4+Rnx15enc2UxR64gktowzDknJSoPulte2DMpacp3Sex/miwSIlFfh5fBjWAbwy5d+kWfMP/AlrIXWqGxbocLWyX8Eo6vHWw+zN3qapo/zHPNKfMwcXIQU7Ck1z8s71XzomBADN67RN6xudr0LeW+fd5OO0y0CW15c7nXEJYORIefVsX0Xxtuo3i/rX9Z0J2ElWAEE1c8FbQMdqNNYVl1ngLa/RtLKHApMruCUd5GGP05HNvBtskoKvm8k8AVh5zMyqreyfXDMVUCQgL6S3Kd+iIjpnpN4Ru4hiH68+0DmrHE5jiF7tgu6A9yrYACTD1rcHquwDb0Jr+hvFQnGQcTbnfDkPFCXMaFHe/P6joMfWaO6w6y3M0gU3DXWspyaU8bz5UJItd0r0In/KUfl+QFrYJWi4qyvzuF/+rKHhY4mRvV8UPdeVV5vt6NF+bJy5SKU1B+oMi2wBkc+LjOhJGnO/curfnMOKryYrlLN1PKjsTDoYAvYhDx1C+MK6Y6qXJGLBujoG/DLBKBMvZxSOKd36XGGFjLiwsxKuA/dL7BkP9v409UtPmnOzSUXouwdCH7NIVIvVtwkNmQpx+NvCnonyKPCsvluJ4RfVdub35dVHboTPmyCEc5o5H3iepOJ0QhxAa+CMv2qTyGqpPtU6jQkh2dGBs5A4QPj1ggdoHZm10WRJ8DTgxaHcCb7cNGoBslHP/MT5Y1/gpW0vcaqzTMHnTaFyk8oGo+Mp8tt9s6+Uj/HgrkJ6UrrOo0Kdw06RjEdRGPLZRFPTZdtpwmOgIEXK03jw+c69JVnAPI3eBlDszW5JE6KTRdIAA0iXlZhbcBwBADdc191Uydd507R+31ClkyXne/KVz6CBu0x+1EcwaEk5GkEz86q6GtRrAKodKz03GjR+lm0FrGWVJhmKohaAhau7atOOGD5eqm7t460HxXsB8WrceKmdjgDmQRzj7r3LSHfnQcOXCdmqHwdRPN1fZUy6bCE1IFNkjK5U5rXuYguwFaFzs6lfqVWtVCjrFgk6srOfTYk9JOoThvwfgJbylZdKaZ0YrTG1BT9Cm+2QK4JEguDwMtveiSR4Vrm5Xwz8Xo3IbJqLqSud9qO34aQcuFCW+DF5bCBmx741gYJd6uqkZ6/wYLXnmK9qqm7Abi45BqdJnXl9a37nUkvo0o3k9XLKa8TCoyddOscSSljVIM0Is4AMVXhNG4Qox8aIM9Ay4IH0iY2Ccb0Ymxlw4Z1R78lQLifvqeq2r4d5ZwOwxZ4NjWOXS9vT/eDL/5NtxG72nW65mdTUewt+pNHCpWxXVAA4Te0tCaUo+cyQyftCftQ5I0G0e2RHiZBNHHAGHLywJv9IA== 1x, /project-Fruit-Basket/assets/img-4@2x-b72a8a9f.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-4@1x-a26edb30.png 1x, /project-Fruit-Basket/assets/img-4@2x-852053a1.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-4@1x-a26edb30.png" alt="Lime" width="295" height="304"> 
+                </picture>
+                   <p class="fruits-price">60 UAH &#47; kg</p>
+
+           </li>
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Apple</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-5@1x-7e23c714.avif 1x, /project-Fruit-Basket/assets/img-5@2x-bd2a18c5.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-5@1x-e8a5986a.png 1x, /project-Fruit-Basket/assets/img-5@2x-94894021.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-5@1x-e8a5986a.png" alt="Apple" width="295" height="304">
+                    </picture> 
+                    <p class="fruits-price">50 UAH &#47; kg</p>
+           </li>
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Peach</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-6@1x-2ff27619.avif 1x, /project-Fruit-Basket/assets/img-6@2x-07cc644a.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-6@1x-943b98eb.png 1x, /project-Fruit-Basket/assets/img-6@2x-e1ad6c9d.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-6@1x-943b98eb.png" alt="Peach" width="295" height="304">
+                    </picture> 
+                    <p class="fruits-price">80 UAH &#47; kg</p>
+           </li>
+           <li class="fruits-item">
+                    <h3 class="fruits-card-title">Plums</h3>
+                    <p class="fruits-card-text">Plant</p>
+                    <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-7@1x-5eca7a3f.avif 1x, /project-Fruit-Basket/assets/img-7@2x-9e08b215.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-7@1x-416f7654.png 1x, /project-Fruit-Basket/assets/img-7@2x-51122b3d.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-7@1x-416f7654.png" alt="Plums" width="295" height="304">
+                    </picture> 
+                    <p class="fruits-price">40 UAH &#47; kg</p>
+           </li>
+           <li class="fruits-item">
+                   <h3 class="fruits-card-title">Orange</h3>
+                   <p class="fruits-card-text">Plant</p>
+                   <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-8@1x-573a1dad.avif 1x, /project-Fruit-Basket/assets/img-8@2x-5e3b6808.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-8@1x-9d320723.png 1x, /project-Fruit-Basket/assets/img-8@2x-53dc7fed.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-8@1x-9d320723.png" alt="Orange" width="295" height="304">
+                   </picture> 
+                   <p class="fruits-price">60 UAH &#47; kg</p>
+           </li>
+           <li class="fruits-item">
+                   <h3 class="fruits-card-title">Kiwi</h3>
+                   <p class="fruits-card-text">Plant</p>
+                   <picture  class="fruits-img">
+                        <source srcset="/project-Fruit-Basket/assets/img-9@1x-b2c49422.avif 1x, /project-Fruit-Basket/assets/img-9@2x-2efd6280.avif 2x" type="image/avif">
+                        <source srcset="/project-Fruit-Basket/assets/img-9@1x-416a8eb8.png 1x, /project-Fruit-Basket/assets/img-9@2x-5f190458.png 2x" type="image/png">
+                        <img src="/project-Fruit-Basket/assets/img-9@1x-416a8eb8.png" alt="Kiwi" width="295" height="304">
+                   </picture> 
+                   <p class="fruits-price">90 UAH &#47; kg</p>
+           </li>
+           
+       </ul>
+       <button class="fruits-btn" type="button" data-modal-open><span class="fruits-span">ORDER</span>  
+        <svg class="fruits-btn-icon" width="14" height="14">
+            <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-arrow"></use>
+          </svg>   
+        </button>
+    </div>
+</section>
+      <section class="contacts" id="contacts">
+  <div class="contacts-container container">
+    <div class="contacts-top">
+      <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1280px)"
+              srcset="/project-Fruit-Basket/assets/melon_desk@1x-e1552342.webp 1x, /project-Fruit-Basket/assets/melon_desk@2x-79678b52.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/project-Fruit-Basket/assets/melon_desk@1x-4d9d2218.jpg 1x, /project-Fruit-Basket/assets/melon_desk@2x-35888383.jpg 2x"
+              type="image/jpg"
+            />
+            <!--- Tablet screen --->
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-Fruit-Basket/assets/melon_tab@1x-45ca78a0.webp 1x, /project-Fruit-Basket/assets/melon_tab@2x-72334582.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-Fruit-Basket/assets/melon_tab@1x-e1cbbd2a.jpg 1x, /project-Fruit-Basket/assets/melon_tab@2x-c82b8d7a.jpg 2x"
+              type="image/jpg"
+            />
+
+            <!--- Mobile screen --->
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-Fruit-Basket/assets/melon_mob@1x-a68a8a42.webp 1x, /project-Fruit-Basket/assets/melon_mob@2x-c3e02e7e.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/project-Fruit-Basket/assets/melon_mob@1x-379c0c97.jpg 1x, /project-Fruit-Basket/assets/melon_mob@2x-c340ce9c.jpg 2x"
+              type="image/jpg"
+            />
+
+            <img
+              class="contacts-img"
+              src="/project-Fruit-Basket/assets/melon_mob@1x-379c0c97.jpg"
+              alt="Melon"
+              width="335"
+              height="476"
+            />
+          </picture>
+        </li>
+        <li class="contacts-item">
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1280px)"
+              srcset="/project-Fruit-Basket/assets/berries_desk@1x-996691c2.webp 1x, /project-Fruit-Basket/assets/berries_desk@2x-3933a4d4.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/project-Fruit-Basket/assets/berries_desk@1x-80bab3a8.jpg 1x, /project-Fruit-Basket/assets/berries_desk@2x-0b32caaa.jpg 2x"
+              type="image/jpg"
+            />
+
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-Fruit-Basket/assets/berries_tab@1x-fda8eb17.webp 1x, /project-Fruit-Basket/assets/berries_tab@2x-1a1ef2b2.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/project-Fruit-Basket/assets/berries_tab@1x-727ec102.jpg 1x, /project-Fruit-Basket/assets/berries_tab@2x-568279ef.jpg 2x"
+              type="image/jpg"
+            />
+
+            <img
+              class="contacts-img"
+              src="/project-Fruit-Basket/assets/berries_tab@1x-727ec102.jpg"
+              alt="Blueberry"
+              loading="lazy"
+              width="344"
+              height="480"
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+    <div class="contacts-bottom">
+      <p class="contacts-text">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form class="modal-form">
+        <div class="contacts-wrap-input">
+          <input
+            class="contacts-input modal-field-input"
+            type="email"
+            name="email"
+            placeholder="Enter email..."
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+          <button
+            class="contacts-btn open-modal-btn"
+            type="submit"
+          >
+            send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer-section">
+  <div class="container wrapper">
+    <div class="footer-navigation">
+      <div>
+        <img
+          class="footer-img"
+          srcset="/project-Fruit-Basket/assets/logo-img-2x-2c9e43c6.jpg 2x"
+          src="/project-Fruit-Basket/assets/logo-img-5cd9248a.jpg"
+          alt="Happy woman holding tropical fruits"
+          width="335"
+          height="172"
+        />
+
+        <a href="./index.html" class="footer-logotip">
+          <svg class="icon-logo" width="16" height="16">
+            <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-logo"></use>
+          </svg>
+          <span class="footer-logo">FRESH HARVEST BOX</span></a
+        >
+      </div>
+      <nav>
+        <ul class="footer-nav-list">
+          <li>
+            <a class="footer-nav-item" href="#works">How It Works</a>
+          </li>
+          <li>
+            <a class="footer-nav-item" href="#fruits">Fruits</a>
+          </li>
+          <li>
+            <a class="footer-nav-item" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-soc-wrapper">
+      <ul class="footer-soc-icon-list">
+        <li class="footer-soc-icon-item">
+          <a
+            aria-label="facebook-link"
+            class="footer-soc-icon-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-soc-icon" width="24" height="24">
+              <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-icon-item">
+          <a
+            aria-label="instagram-link"
+            class="footer-soc-icon-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-soc-icon" width="24" height="24">
+              <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-soc-icon-item">
+          <a
+            aria-label="youtube-link"
+            class="footer-soc-icon-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <svg class="footer-soc-icon" width="24" height="24">
+              <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address>
+        <ul class="footer-contacts-list">
+          <li class="footer-contacts">
+            <a class="address-hover" href="tel:+380684439426"> +380 (68) 443-94-26</a>
+          </li>
+          <li class="footer-contacts-address">
+            <a
+              class="address-hover"
+              href="https://goo.gl/maps/pRxTAWWVybm2v9Vc7"
+              target="_blank"
+              rel="noreferrer noopener"
+              >1678 S.Pioneer Road Salt Lake City
+              <span class="address-number"> UT 84104</span>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</footer>
+
+
+    <div class="overlay js-overlay-modal">
+      <div class="container-order order-modal">
+    <button
+      class="close-btn js-modal-close"
+      type="button"
+      aria-label="close-icon"
+      data-modal-close
+    >
+      <svg class="close-icon" width="28" height="28" stroke="var(--brand-color)">
+        <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
+      </svg>
+    </button>
+    <h2 class="order-title">YOUR ORDER</h2>
+    <form class="order-form" name="basket-form">
+      <!-- Basket cards -->
+    <div class="basket-cards">
+        <label class="basket-label" for="strawberry-basket">
+            <input
+            class="basket-checkbox visually-hidden"
+            type="checkbox"
+            name="basket"
+            id="strawberry-basket"
+            checked
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <span class="basket-text">
+                <span class="label-h">Strawberry&nbsp;Basket</span>
+                <span class="basket-plant">Plant</span>
+            </span>
+            <picture class="basket-img basket-img-straw">
+                <source 
+                srcset="/project-Fruit-Basket/assets/strawberry_result-1a64cfb4.avif 1x, /project-Fruit-Basket/assets/strawberry@2x_result-0f6a41ce.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strawberry-fd4d5159.png 1x, /project-Fruit-Basket/assets/strawberry@2x-6f40047d.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strtab-c550ed10.avif 1x, /project-Fruit-Basket/assets/strtab@2x-765d7aa3.avif 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strtab-8604eab9.png 1x, /project-Fruit-Basket/assets/strtab@2x-e63d1f2b.png 2x" media="(min-width: 768px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strm_result-58d59c2e.avif 1x, /project-Fruit-Basket/assets/strm@2x-3a76e93a.avif 2x" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/strm-ce74d3bb.png 1x, /project-Fruit-Basket/assets/strm@2x-058dce0b.png 2x" type="image/png" />
+                <img 
+                    src="/project-Fruit-Basket/assets/strm-ce74d3bb.png" 
+                    alt="Strawberry Basket"
+                    width="173"
+                    height="196"
+                     />
+            </picture>
+        </label>
+        <label class="basket-label" for="apple-basket">
+            <input
+            class="basket-checkbox  visually-hidden"
+            type="checkbox"
+            name="basket"
+            id="apple-basket"
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <span class="basket-text">
+                <span class="label-h">Apple&nbsp;Basket</span>
+                <span class="basket-plant">Plant</span>
+            </span>
+            <picture class="basket-img">
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple_result-4770e7be.avif 1x, /project-Fruit-Basket/assets/apple@2x_result-40889c0f.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple_result-4770e7be.avif 1x, /project-Fruit-Basket/assets/apple@2x_result-40889c0f.avif 2x" media="(min-width: 768px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/apple-69cbd681.png 1x, /project-Fruit-Basket/assets/apple@2x-995d3c97.png 2x" media="(min-width: 768px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/applm_result-d1c4de94.avif 1x, /project-Fruit-Basket/assets/appm@2x-6c8fb063.avif 2x" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/appl-8cec34b9.png 1x, /project-Fruit-Basket/assets/appm@2x-d5f21259.png 2x" type="image/png" />
+                
+                <img 
+                    src="/project-Fruit-Basket/assets/apple_result-4770e7be.avif" 
+                    alt="Apple Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>
+        <label class="basket-label" for="fruits-basket">
+            <input
+            class="basket-checkbox visually-hidden"
+            type="checkbox"
+            name="basket"
+            id="fruits-basket"
+            />
+            <span class="check-mark-frame">
+                <svg class="check-mark" width="8" height="8">
+                  <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-checked"></use>
+                </svg>
+            </span>
+            <span class="basket-text">
+                <span class="label-h">Fruits&nbsp;Basket</span>
+                <span class="basket-plant">Plant</span>
+            </span>
+            <picture class="basket-img">
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif 1x, /project-Fruit-Basket/assets/fruits@2x_result-6aceed13.avif 2x" media="(min-width: 1280px)" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x" media="(min-width: 1280px)" type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif 1x, /project-Fruit-Basket/assets/fruits@2x_result-6aceed13.avif 2x" media="(min-width: 768px)"  type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fruits-505476ae.png 1x, /project-Fruit-Basket/assets/fruits@2x-4e73102e.png 2x" media="(min-width: 768px)"  type="image/png" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/frm_result-ae3559c2.avif 1x, /project-Fruit-Basket/assets/frtm@2x-baebcf56.avif 2x" type="image/avif" />
+                <source 
+                srcset="/project-Fruit-Basket/assets/fr-c8474d76.png 1x, /project-Fruit-Basket/assets/frtm@2x-d6fbdf20.png 2x" type="image/png" />
+                <img 
+                    src="/project-Fruit-Basket/assets/fruits_result-f92bb17d.avif" 
+                    alt="Fruits Basket"
+                    width="229"
+                    height="196"
+                    loading="lazy" />
+            </picture>
+        </label>   
+    </div>
+      <!-- Customer data input -->
+        <div class="modal-input-client">
+            <input
+              class="modal-form-input"
+              type="text"
+              name="full_name_client"
+              minlength="2"
+              placeholder="Enter full name..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="email"
+              name="client_mail"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              placeholder="Enter email..."
+              required
+            />
+            <input
+              class="modal-form-input"
+              type="text"
+              name="banking_card"
+              pattern="[0-9]{16}"
+              title="Enter 16 numbers"
+              placeholder="Enter card.."
+              required
+            />
+            <textarea
+                class="modal-form-textarea"
+                name="client_message"
+                placeholder="Enter comments..."
+            ></textarea>
+        </div>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
+</div>
+
+      <div class="thank thx-modal">
+  <button
+    type="button"
+    class="thank-btn close-btn"
+    aria-label="close thanks button"
+  >
+    <svg class="thank-x" width="24px" height="24px">
+      <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-mobile"></use>
+    </svg>
+    <svg class="thank-x-tab" width="28px" height="28px">
+      <use href="/project-Fruit-Basket/assets/icons-a36c3f05.svg#icon-x-tabdesk"></use>
+    </svg>
+  </button>
+  <picture>
+    <source
+      media="(min-width: 768px)"
+      srcset="/project-Fruit-Basket/assets/rasp_tab@1x-e786e538.avif 1x, /project-Fruit-Basket/assets/rasp_tab@2x-e054f1a0.avif 2x"
+      type="image/avif"
+    />
+    <source
+      media="(min-width: 768px)"
+      srcset="/project-Fruit-Basket/assets/rasp_tab@1x-ce6e185a.png 1x, /project-Fruit-Basket/assets/rasp_tab@2x-97070b35.png 2x"
+      type="image/png"
+    />
+    <source
+      srcset="/project-Fruit-Basket/assets/rasp_mob@1x-debbb1d6.avif 1x, /project-Fruit-Basket/assets/rasp_mob@2x-1def86d8.avif 2x"
+      type="image/avif"
+    />
+    <source
+      srcset="/project-Fruit-Basket/assets/rasp_mob@1x-ab487b77.png 1x, /project-Fruit-Basket/assets/rasp_mob@2x-ce9e6a2f.png 2x"
+      type="image/png"
+    />
+    <img
+      class="thank-img"
+      src="/project-Fruit-Basket/assets/rasp_mob@1x-ab487b77.png"
+      alt="raspberry"
+      width="278"
+      height="239"
+      loading="lazy"
+    />
+  </picture>
+  <!-- 
+  <img
+    class="thank-img"
+    srcset="
+      ./img/modal-thx/rasp_mob@1x.png 207w,
+      ./img/modal-thx/rasp_tab@1x.png 278w,
+      ./img/modal-thx/rasp_mob@2x.png 414w,
+      ./img/modal-thx/rasp_tab@2x.png 556w
+    "
+    sizes="(min-width: 768px) 278px, (min-width: 375px) 207px,(min-width: 320px) 207px, 100vw "
+    src="./img/modal-thx/rasp_mob@1x.png"
+    alt="raspberry"
+    width="278"
+    height="239"
+    loading="lazy"
+  /> -->
+  <div class="thank-words">
+    <h2 class="thank-head">THANK YOU</h2>
+    <p class="thank-text">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
+</div>
+
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
